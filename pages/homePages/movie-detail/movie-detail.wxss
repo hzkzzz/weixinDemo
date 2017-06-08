@@ -1,0 +1,247 @@
+/* pages/homePages/movie-detail/movie-detail.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.video_play {
+  width: 100%;
+  height: 400rpx;
+}
+
+.video_play video {
+  width: 100%;
+  height: 400rpx;
+}
+
+.video_con {
+  width: 100%;
+  height: 855rpx;
+  background: #262932;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.header {
+  width: 100%;
+  height: 250rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}
+
+.header_title {
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 38rpx;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right_set {
+  font-size: 15px;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #a2a6a7;
+  background: url(/iconImages/r2_c2.jpg) no-repeat top right;
+  background-position-y: 5rpx;
+  background-size: 20rpx 60rpx;
+  padding-right: 40rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: right;
+}
+
+.header_tag {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 40rpx;
+  font-size: 14px;
+  color: #6c6f78;
+}
+
+.header_set {
+  width: 100%;
+  margin-top: 38rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.picker {
+  display: block;
+  width: 90rpx;
+  height: 44rpx;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  font-size: 12px;
+  padding-left: 6rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.section {
+  overflow: hidden;
+}
+
+.choose_ang {
+  top: 13rpx;
+  right: 5rpx;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10rpx solid transparent;
+  border-right: 10rpx solid transparent;
+  border-top: 10rpx solid #fff;
+}
+
+.header_set_in image {
+  width: 44rpx;
+  height: 44rpx;
+  display: inline-block;
+  margin-left: 62rpx;
+}
+
+.episode {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 32rpx;
+  color: #fff;
+  margin-top: 50rpx;
+  box-sizing: border-box;
+}
+
+.episode_header {
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  flex-direction: cow;
+  justify-content: space-between;
+  padding-right: 32rpx;
+  box-sizing: border-box;
+  margin-top: 42rpx;
+}
+
+.right_set text {
+  display: inline-block;
+  width: 400rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.horizon {
+  background-color: #6c6f78;
+  width: 100%;
+  height: 1px;
+}
+
+.espisode_list {
+
+  height:92rpx;
+  white-space: nowrap;
+  display: flex;
+  margin: 35rpx 0 50rpx 0;
+  padding-left: 28rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.espisode_list_in {
+  width: 92rpx;
+  height: 92rpx;
+  color: #b3b6bf;
+  background-color: #373a43;
+  border-radius: 5rpx;
+  line-height: 92rpx;
+  text-align: center;
+  font-family: "microsoft yahei";
+  font-size: 14px;
+  margin-right: 15rpx;
+  white-space: wrap;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.recommend {
+  width: 100%;
+  padding-left: 32rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50rpx;
+}
+
+.recommend_title {
+  color: #fff;
+}
+
+.recommend_con {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.recommend_con_in {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  height: 142rpx;
+  margin-top: 37rpx;
+}
+
+.recommend_con_in view {
+  display: flex;
+  flex-direction: column;
+}
+
+.recommend_con_in_all {
+  width: 60%;
+}
+
+.recommend_con_in image {
+  height: 142rpx;
+  width: 252rpx;
+  border-radius: 5px;
+}
+
+.recommend_con_in_title {
+  margin: 35rpx 0 0 24rpx;
+  font-size: 15px;
+  color: #fff;
+  width: 85%;
+}
+
+.recommend_con_in_con {
+  margin: 10rpx 0 0 24rpx;
+  font-size: 13px;
+  color: #7d8089;
+}
+
+.recommend_all {
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  margin: 35rpx 0 35rpx 0;
+  margin-left: -32rpx;
+}

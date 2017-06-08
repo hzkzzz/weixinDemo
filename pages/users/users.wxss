@@ -1,0 +1,123 @@
+/* pages/users/users.wxss */
+
+.users_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users_avatar {
+  width: 123rpx;
+  height: 123rpx;
+  border-radius: 50%;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.users_name {
+  font-size: 17px;
+  margin-bottom: 40rpx;
+  font-weight: bold;
+}
+
+.horizon1 {
+  width: 100%;
+  height: 1px;
+  background: #f6f7f9;
+}
+
+.users_vip {
+  height: 84rpx;
+  width: 100%;
+  margin-top: 40rpx;
+  padding-left: 95rpx;
+  box-sizing: border-box;
+  background: url(/iconImages/user_vip.jpg) no-repeat 32rpx 20rpx;
+  background-size: 39rpx;
+  margin-bottom: 30rpx;
+}
+
+.users_vip text {
+  display: block;
+}
+
+.users_vip_title {
+  font-size: 16px;
+}
+
+.users_vip_text {
+  font-size: 13px;
+  color: #999;
+  margin-top: 3px;
+}
+
+.horizon30 {
+  width: 100%;
+  height: 30rpx;
+  background: #f6f7f9;
+}
+
+.users_history {
+  width: 100%;
+  height: 380rpx;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.users_history_h1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 16px;
+  margin-top: 40rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+
+.right_set {
+  font-family: SimSun;
+  font-weight: bold;
+  color: #bdbdbd;
+}
+
+.users_list, .users_set {
+  width: 100%;
+  display: flex;
+  height: 135rpx;
+}
+
+.history_log {
+  height: 300rpx;
+  white-space: nowrap;
+  display: flex;
+  margin-top: 35rpx;
+  padding-left: 28rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.history_log_in {
+  white-space: wrap;
+  width: 260rpx;
+  text-align: center;
+  display: inline-block;
+  margin-right: 18rpx;
+  overflow: hidden;
+}
+
+.history_log_in image {
+  width: 260rpx;
+  height: 144rpx;
+  display: block;
+}
+.history_log_in text{
+  width: 260rpx;
+  font-size: 14px;
+  display: block;
+  line-height: 26px;
+}

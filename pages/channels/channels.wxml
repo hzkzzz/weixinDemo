@@ -1,0 +1,367 @@
+
+<!--pages/channels/channels.wxml-->
+<view class="channels_container">
+  <view class="channels_type">
+    <text data-num="1" class="type_in {{click_num==1?'type_in_cur':''}}" bindtap="typeaddClass">电视剧</text>
+    <text data-num="2" class="type_in {{click_num==2?'type_in_cur':''}}" bindtap="typeaddClass">综艺</text>
+    <text data-num="3" class="type_in {{click_num==3?'type_in_cur':''}}" bindtap="typeaddClass">电影</text>
+    <text data-num="4" class="type_in {{click_num==4?'type_in_cur':''}}" bindtap="typeaddClass">动漫</text>
+    <text class="type_search"></text>
+  </view>
+  <view wx:if="{{click_num==1}}">
+    <view class="classify">
+      <text>偶像</text>
+      <text>古装</text>
+      <text>爱情</text>
+      <text>历史</text>
+      <text>全部分类</text>
+    </view>
+    <view class="horizon1"></view>
+    <view class="channel_main">
+      <view class="channels_h1">
+        <text> 全网热播 <text class="right_set">></text></text>
+      </view>
+      <view class="channels_con">
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels1.jpg"></image>
+          </view>
+          <text class="channels_con_title">老爸当家</text>
+          <text class="channels_con_summary">张国立蒋欣成父女</text>
+          <text class="channels_con_tip">更新至30集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels2.jpg"></image>
+          </view>
+          <text class="channels_con_title">黎明决战</text>
+          <text class="channels_con_summary">霸气特工刘诗诗智斗王千源</text>
+          <text class="channels_con_tip">更新至26集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels3.jpg"></image>
+          </view>
+          <text class="channels_con_title">三生三四十里桃花</text>
+          <text class="channels_con_summary">杨幂赵又廷三生虐恋</text>
+          <text class="channels_con_tip">全58集</text>
+        </view>
+          <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels4.jpg"></image>
+          </view>
+          <text class="channels_con_title">爱来得刚刚好</text>
+          <text class="channels_con_summary">韩栋江凯同牵手虐爱</text>
+          <text class="channels_con_tip">全60集</text>
+        </view>
+      </view>
+    </view>
+        <view class="horizon1"></view>
+    <view class="channel_main">
+      <view class="channels_h1">
+        <text> 全网热播 <text class="right_set">></text></text>
+      </view>
+      <view class="channels_con">
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels1.jpg"></image>
+          </view>
+          <text class="channels_con_title">老爸当家</text>
+          <text class="channels_con_summary">张国立蒋欣成父女</text>
+          <text class="channels_con_tip">更新至30集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels2.jpg"></image>
+          </view>
+          <text class="channels_con_title">黎明决战</text>
+          <text class="channels_con_summary">霸气特工刘诗诗智斗王千源</text>
+          <text class="channels_con_tip">更新至26集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels3.jpg"></image>
+          </view>
+          <text class="channels_con_title">三生三四十里桃花</text>
+          <text class="channels_con_summary">杨幂赵又廷三生虐恋</text>
+          <text class="channels_con_tip">全58集</text>
+        </view>
+          <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels4.jpg"></image>
+          </view>
+          <text class="channels_con_title">爱来得刚刚好</text>
+          <text class="channels_con_summary">韩栋江凯同牵手虐爱</text>
+          <text class="channels_con_tip">全60集</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{click_num==2}}">
+    <view class="classify">
+      <text>真人秀</text>
+      <text>韩综</text>
+      <text>音乐</text>
+      <text>脱口秀</text>
+      <text>全部分类</text>
+    </view>
+    <view class="horizon1"></view>
+    <view class="channel_main">
+      <view class="channels_h1">
+        <text> 全网热播 <text class="right_set">></text></text>
+      </view>
+      <view class="channels_con">
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel21.jpg"></image>
+          </view>
+          <text class="channels_con_title">放开我北鼻 第二季</text>
+          <text class="channels_con_summary"></text>
+          <text class="channels_con_tip">2017-01-08</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel22.jpg"></image>
+          </view>
+          <text class="channels_con_title">吐槽大会</text>
+          <text class="channels_con_summary"></text>
+          <text class="channels_con_tip">2017-01-030</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel23.jpg"></image>
+          </view>
+          <text class="channels_con_title">二十四小时</text>
+          <text class="channels_con_summary"></text>
+          <text class="channels_con_tip">2017-01-030</text>
+        </view>
+          <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel24.jpg"></image>
+          </view>
+          <text class="channels_con_title">王牌对王牌 第2季</text>
+          <text class="channels_con_summary"></text>
+          <text class="channels_con_tip">2017-01-030</text>
+        </view>
+      </view>
+    </view>
+        <view class="horizon1"></view>
+    <view class="channel_main">
+      <view class="channels_h1">
+        <text> 全网热播 <text class="right_set">></text></text>
+      </view>
+      <view class="channels_con">
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels1.jpg"></image>
+          </view>
+          <text class="channels_con_title">老爸当家</text>
+          <text class="channels_con_summary">张国立蒋欣成父女</text>
+          <text class="channels_con_tip">更新至30集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels2.jpg"></image>
+          </view>
+          <text class="channels_con_title">黎明决战</text>
+          <text class="channels_con_summary">霸气特工刘诗诗智斗王千源</text>
+          <text class="channels_con_tip">更新至26集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels3.jpg"></image>
+          </view>
+          <text class="channels_con_title">三生三四十里桃花</text>
+          <text class="channels_con_summary">杨幂赵又廷三生虐恋</text>
+          <text class="channels_con_tip">全58集</text>
+        </view>
+          <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels4.jpg"></image>
+          </view>
+          <text class="channels_con_title">爱来得刚刚好</text>
+          <text class="channels_con_summary">韩栋江凯同牵手虐爱</text>
+          <text class="channels_con_tip">全60集</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{click_num==3}}">
+    <view class="classify">
+      <text>院线</text>
+      <text>科幻</text>
+      <text>爱情</text>
+      <text>喜剧</text>
+      <text>全部分类</text>
+    </view>
+    <view class="horizon1"></view>
+    <view class="channel_main">
+      <view class="channels_h1">
+        <text> 全网热播 <text class="right_set">></text></text>
+      </view>
+      <view class="channels_con">
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel31.jpg"></image>
+          </view>
+          <text class="channels_con_title">健忘村</text>
+          <text class="channels_con_summary">舒淇vs王千源奇幻忘忧</text>
+          <text class="channels_con_tip">7.0</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel32.jpg"></image>
+          </view>
+          <text class="channels_con_title">魔游纪</text>
+          <text class="channels_con_summary">赏金异人与小和尚的</text>
+          <text class="channels_con_tip">8.7</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel33.jpg"></image>
+          </view>
+          <text class="channels_con_title">那年夏天你去了哪里</text>
+          <text class="channels_con_summary">胡歌首演反派眼冒贼光</text>
+          <text class="channels_con_tip">7.2</text>
+        </view>
+          <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel34.jpg"></image>
+          </view>
+          <text class="channels_con_title">情圣</text>
+          <text class="channels_con_summary">肖央小沈阳组团撩妹</text>
+          <text class="channels_con_tip">7.8</text>
+        </view>
+      </view>
+    </view>
+        <view class="horizon1"></view>
+    <view class="channel_main">
+      <view class="channels_h1">
+        <text> 全网热播 <text class="right_set">></text></text>
+      </view>
+      <view class="channels_con">
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels1.jpg"></image>
+          </view>
+          <text class="channels_con_title">老爸当家</text>
+          <text class="channels_con_summary">张国立蒋欣成父女</text>
+          <text class="channels_con_tip">更新至30集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels2.jpg"></image>
+          </view>
+          <text class="channels_con_title">黎明决战</text>
+          <text class="channels_con_summary">霸气特工刘诗诗智斗王千源</text>
+          <text class="channels_con_tip">更新至26集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels3.jpg"></image>
+          </view>
+          <text class="channels_con_title">三生三四十里桃花</text>
+          <text class="channels_con_summary">杨幂赵又廷三生虐恋</text>
+          <text class="channels_con_tip">全58集</text>
+        </view>
+          <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels4.jpg"></image>
+          </view>
+          <text class="channels_con_title">爱来得刚刚好</text>
+          <text class="channels_con_summary">韩栋江凯同牵手虐爱</text>
+          <text class="channels_con_tip">全60集</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{click_num==4}}">
+    <view class="classify">
+      <text>国漫</text>
+      <text>日韩</text>
+      <text>萌系</text>
+      <text>推理</text>
+      <text>全部分类</text>
+    </view>
+    <view class="horizon1"></view>
+    <view class="channel_main">
+      <view class="channels_h1">
+        <text> 全网热播 <text class="right_set">></text></text>
+      </view>
+      <view class="channels_con">
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel41.jpg"></image>
+          </view>
+          <text class="channels_con_title">斗破苍穹</text>
+          <text class="channels_con_summary">击杀敌对家族二长老</text>
+          <text class="channels_con_tip">更新至11集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel42.jpg"></image>
+          </view>
+          <text class="channels_con_title">画江湖之不良人</text>
+          <text class="channels_con_summary">星云和子凡巅峰对决</text>
+          <text class="channels_con_tip">更新至35集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel43.jpg"></image>
+          </view>
+          <text class="channels_con_title">狐妖小红娘</text>
+          <text class="channels_con_summary">历经三百年的恩怨情仇</text>
+          <text class="channels_con_tip">更新至52集</text>
+        </view>
+          <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channel44.jpg"></image>
+          </view>
+          <text class="channels_con_title">武庚纪</text>
+          <text class="channels_con_summary">困兽之斗</text>
+          <text class="channels_con_tip">更新至18集</text>
+        </view>
+      </view>
+    </view>
+        <view class="horizon1"></view>
+    <view class="channel_main">
+      <view class="channels_h1">
+        <text> 全网热播 <text class="right_set">></text></text>
+      </view>
+      <view class="channels_con">
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels1.jpg"></image>
+          </view>
+          <text class="channels_con_title">老爸当家</text>
+          <text class="channels_con_summary">张国立蒋欣成父女</text>
+          <text class="channels_con_tip">更新至30集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels2.jpg"></image>
+          </view>
+          <text class="channels_con_title">黎明决战</text>
+          <text class="channels_con_summary">霸气特工刘诗诗智斗王千源</text>
+          <text class="channels_con_tip">更新至26集</text>
+        </view>
+        <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels3.jpg"></image>
+          </view>
+          <text class="channels_con_title">三生三四十里桃花</text>
+          <text class="channels_con_summary">杨幂赵又廷三生虐恋</text>
+          <text class="channels_con_tip">全58集</text>
+        </view>
+          <view class="channels_con_in">
+          <view class="channels_con_img">
+            <image src="/images/channels4.jpg"></image>
+          </view>
+          <text class="channels_con_title">爱来得刚刚好</text>
+          <text class="channels_con_summary">韩栋江凯同牵手虐爱</text>
+          <text class="channels_con_tip">全60集</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

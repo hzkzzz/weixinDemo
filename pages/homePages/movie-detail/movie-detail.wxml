@@ -1,0 +1,152 @@
+
+<!--pages/homePages/movie-detail/movie-detail.wxml-->
+<view class="container">
+  <view class="video_play">
+    <video src=""></video>
+  </view>
+  <scroll-view class="video_con" scroll-y="ture" scroll-top="0 0">
+    <view class="header">
+      <view class="header_title">
+        <text>因为遇见你</text>
+        <view class="right_set">
+          <text>简介</text>
+        </view>
+      </view>
+      <view class="header_tag">
+        <text>8.1分 · 偶像 · 全64集 · 9.7亿</text>
+      </view>
+      <view class="header_set">
+        <view class="section">
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <view class="picker">
+              <text>{{array[index]}}</text>
+              <view class="choose_ang"></view>
+            </view>
+          </picker>
+        </view>
+        <view class="header_set_in">
+          <image src="/iconImages/share2.jpg"></image>
+          <image src="/iconImages/collect.jpg"></image>
+        </view>
+      </view>
+    </view>
+    <view class="episode">
+      <view class="horizon"></view>
+      <view class="episode_header">
+        <text>剧集</text>
+        <view class="right_set">
+          <text>每周日到周四更新2集，周五到周六更新1集/更新至32集</text>
+        </view>
+      </view>
+      <view class="aaa"></view>
+      <scroll-view class="espisode_list" scroll-x="ture">
+        <view class="espisode_list_in">
+          <text>1</text>
+        </view>
+        <view class="espisode_list_in">
+          <text>2</text>
+        </view>
+        <view class="espisode_list_in">
+          <text>3</text>
+        </view>
+        <view class="espisode_list_in">
+          <text>4</text>
+        </view>
+        <view class="espisode_list_in">
+          <text>5</text>
+        </view>
+        <view class="espisode_list_in">
+          <text>6</text>
+        </view>
+        <view class="espisode_list_in">
+          <text>7</text>
+        </view>
+        <view class="espisode_list_in">
+          <text>8</text>
+        </view>
+      </scroll-view>
+      <view class="horizon"></view>
+    </view>
+    <view class="recommend">
+      <view class="recommend_title">
+        <text>精彩片花</text>
+      </view>
+      <view class="recommend_con">
+        <view class="recommend_con_in">
+          <view>
+            <image src="/images/pianhua1.jpg"></image>
+          </view>
+          <view>
+            <text class="recommend_con_in_title">《因为遇见你》剧情大逆转 孙怡邓伦浓情KISS甜翻了</text>
+          </view>
+        </view>
+      </view>
+      <view class="recommend_con">
+        <view class="recommend_con_in">
+          <view>
+            <image src="/images/pianhua2.jpg"></image>
+          </view>
+          <view>
+            <text class="recommend_con_in_title">《因为遇见你》甜宠特辑：孙怡邓伦“开心果”CP高能上线</text>
+          </view>
+        </view>
+      </view>
+      <view class="recommend_con">
+        <view class="recommend_con_in">
+          <view>
+            <image src="/images/pianhua3.jpg"></image>
+          </view>
+          <view>
+            <text class="recommend_con_in_title">《因为遇见你》素锦之后又一恶女！坐等张雨欣谎言被拆穿</text>
+          </view>
+        </view>
+      </view>
+      <view class="recommend_all">
+        <text>全部</text>
+      </view>
+      <view class="horizon"></view>
+    </view>
+    <view class="recommend">
+      <view class="recommend_title">
+        <text>为你推荐</text>
+      </view>
+      <view class="recommend_con">
+        <view class="recommend_con_in">
+          <view>
+            <image src="/images/tuijian1.jpg"></image>
+          </view>
+          <view class="recommend_con_in_all">
+            <text class="recommend_con_in_title">因为遇见你</text>
+            <text class="recommend_con_in_con">孙怡邓伦牵手演绎刺绣奇缘</text>
+          </view>
+        </view>
+      </view>
+      <view class="recommend_con">
+        <view class="recommend_con_in">
+          <view>
+            <image src="/images/tuijian2.jpg"></image>
+          </view>
+          <view class="recommend_con_in_all">
+            <text class="recommend_con_in_title">花非花雾非雾</text>
+            <text class="recommend_con_in_con">琼瑶奶奶够萝莉</text>
+          </view>
+        </view>
+      </view>
+      <view class="recommend_con">
+        <view class="recommend_con_in">
+          <view>
+            <image src="/images/tuijian3.jpg"></image>
+          </view>
+          <view class="recommend_con_in_all">
+            <text class="recommend_con_in_title">碧血书香梦</text>
+            <text class="recommend_con_in_con">张檬韩栋上演书香奇缘</text>
+          </view>
+        </view>
+      </view>
+      <view class="recommend_all">
+        <text>全部</text>
+      </view>
+      <view class="horizon"></view>
+    </view>
+  </scroll-view>
+</view>

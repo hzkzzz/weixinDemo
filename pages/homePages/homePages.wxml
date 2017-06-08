@@ -1,0 +1,41 @@
+
+<!--pages/homePages/homePages.wxml-->
+<navigator url="/pages/homePages/movie-detail/movie-detail" bindtap="toDetail" hover-class="none">
+  <view class="home-container">
+    <view class="home-top" bindtap="movie_deatail">
+      <image class="home-top-image" src="{{imageurlxxx}}" bindtap="tapName"></image>
+      <view class="home_top">
+        <view class="home-logo">
+          <text>腾讯视频{{}}</text>
+        </view>
+        <view class="home-play"></view>
+        <view class="home-search" catchtap="search_fn"></view>
+      </view>
+    </view>
+    <view class="home-bottom">
+      <swiper class="home-con" bindchange="index_change">
+        <block wx:for="{{con_key}}" wx:for-item="item">
+          <swiper-item class="con-all">
+            <view class="con-item">
+              <view class="con-image">
+                <image class="image-size" src="{{item.post_image}}"></image>
+              </view>
+              <text class="con-title"> {{item.title}} </text>
+              <text class="con-summary">{{item.summary}}</text>
+              <text class="con-actor">{{item.actor}}</text>
+            </view>
+          </swiper-item>
+        </block>
+
+        <!--<swiper-item class="con-all">
+                <view class="con-item">
+                    <view class="con-image"><image class="image-size" src="/images/movie2.jpg"></image></view>
+                    <text class="con-title">火线出击</text>
+                    <text class="con-summary">"讲述了一群出身悬殊、性格迥异的消防兵的成长故事。"</text>
+                    <text class="con-actor">主演：徐洪浩、杨舒、赵荀、张慧、夏侯镔、侯杰</text>
+                </view>
+            </swiper-item>-->
+      </swiper>
+    </view>
+  </view>
+</navigator>

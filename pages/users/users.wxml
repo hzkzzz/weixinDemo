@@ -1,0 +1,51 @@
+
+<!--pages/users/users.wxml-->
+<view class="users_container">
+  <image class="users_avatar" src="/iconImages/avatar.jpg"></image>
+  <text class="users_name">小程序</text>
+  <view class="horizon1"></view>
+  <view class="users_vip">
+    <text class="users_vip_title">VIP未开通</text>
+    <text class="users_vip_text">暂未支持QQ帐号登录，请在其他平台使用</text>
+  </view>
+  <view class="horizon30"></view>
+  <view class="users_history">
+    <view class="users_history_h1">
+      <text>观看历史</text>
+      <text class="right_set">></text>
+    </view>
+    <scroll-view class="history_log" scroll-x="true">
+      <view class="history_log_in">
+        <image src="/images/moviepost0.jpg"></image>
+        <text>火线出击</text>
+      </view>
+      <view class="history_log_in">
+        <image src="/images/moviepost1.jpg"></image>
+        <text>不能说的秘密</text>
+      </view>
+      <view class="history_log_in">
+        <image src="/images/moviepost2.jpg"></image>
+        <text>绝地反击</text>
+      </view>
+      <view class="history_log_in">
+        <image src="/images/moviepost3.jpg"></image>
+        <text>神探夏洛克</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="horizon1"></view>
+  <view class="users_list ">
+    <view class="users_history_h1">
+      <text>我的看单</text>
+      <text class="right_set">></text>
+    </view>
+  </view>
+  <view class="horizon30"></view>
+  <view class="users_set">
+    <view class="users_history_h1">
+      <text>设置</text>
+      <text class="right_set">></text>
+    </view>
+  </view>
+  <view class="horizon30"></view>
+</view>

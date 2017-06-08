@@ -1,0 +1,152 @@
+/* pages/channels/channels.wxss */
+
+.channels_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.channels_type {
+  width: 100%;
+  margin-top: 50rpx;
+  display: flex;
+  font-size: 16px;
+  flex-direction: row;
+  height: 70rpx;
+}
+
+.type_in_cur {
+  color: #f70;
+}
+
+.type_in {
+  text-align: center;
+  margin-right: 17rpx;
+  display: block;
+  position: relative;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-left: 35rpx;
+}
+
+.type_in_cur:after {
+  content: "";
+  width: 16px;
+  height: 2px;
+  position: absolute;
+  background: #f70;
+  bottom: 0;
+  left: 50%;
+  margin-left: -8px;
+}
+
+.type_search {
+  left: 25%;
+  position: relative;
+  top: 15rpx;
+  width: 40rpx;
+  height: 40rpx;
+  background: url(/iconImages/search2.png) no-repeat;
+  background-size: cover;
+}
+
+.classify {
+  width: 100%;
+  height: 55rpx;
+  line-height: 55rpx;
+  font-size: 13px;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  color: #666;
+  display: flex;
+  margin-top: 25rpx;
+}
+
+.classify text {
+  background-color: #f5f7f9;
+  border-radius: 3px;
+  margin-right: 25rpx;
+  height: 55rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 0 18rpx;
+  box-sizing: border-box;
+}
+
+.horizon1 {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 25rpx 0 50rpx 0;
+}
+
+.channel_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.channels_h1 {
+  font-size: 16px;
+  padding-left: 35rpx;
+  box-sizing: border-box;
+}
+
+.right_set {
+  font-family: SimSun;
+  font-weight: bold;
+}
+
+.channels_con {
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  margin-left: 18rpx;
+  flex-wrap: wrap;
+}
+
+.channels_con_in {
+  width: 335rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 14rpx;
+  margin-top: 37rpx;
+  position: relative;
+}
+
+.channels_con_img {
+  width: 335rpx;
+  height: 188rpx;
+  border-radius: 5px;
+  margin-bottom: 13rpx;
+}
+
+.channels_con image {
+  width: 335rpx;
+  height: 188rpx;
+  border-radius: 5px;
+  
+}
+
+.channels_con_title {
+  font-size: 15px;
+}
+
+.channels_con_summary {
+  display: flex;
+  font-size: 13px;
+  flex-direction: column;
+  color: #999;
+  margin-top: 14rpx;
+}
+
+.channels_con_tip {
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  right: 10rpx;
+  top: 155rpx;
+}
